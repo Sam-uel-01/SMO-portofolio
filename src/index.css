@@ -29,8 +29,8 @@
 
 @media (min-width: 800px) {
   :root {
-    --fs-h1: 4.5rem;
-    --fs-h2: 3.75rem;
+    --fs-h1: 4rem;
+    --fs-h2: 3.7rem;
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
   }
@@ -60,4 +60,21 @@ h2 {
 }
 h3 {
   font-size: var(--fs-h3);
+}
+
+.hero,
+.about_hero,
+.contact_hero,
+.works_hero,
+.services_hero {
+  padding: 3em 2em;
+}
+
+.section_title {
+  padding: 0.2em;
+  margin-bottom: 0.2em;
+  font-weight: var(--fw-reg);
+  text-align: center;
+  background: var(--clr-secondary);
+  font-family: var(--ff-secondary);
 }

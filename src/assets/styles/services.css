@@ -1,0 +1,44 @@
+h3 {
+  font-family: var(--ff-primary);
+  padding: 1em 0px;
+}
+p {
+  line-height: 2em;
+  font-size: 1.2em;
+}
+.services-button {
+  font-size: var(--fs-body);
+  padding: 0.5em 3em;
+  border-radius: 8px;
+  background: var(--clr-secondary);
+  font-family: var(--ff-secondary);
+  box-sizing: var(--bs);
+  text-transform: uppercase;
+}
+.services {
+  display: flex;
+  padding: 4em 4em;
+  gap: 2em;
+}
+
+.service {
+  padding: 2em;
+  width: 33%;
+  box-shadow: var(--bs);
+}
+
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .service {
+    width: 100%;
+  }
+}
+
+.services-btn {
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+}

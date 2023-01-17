@@ -1,0 +1,32 @@
+.contact-form {
+  display: flex;
+  width: 80%;
+  padding: 2em 0;
+  margin: 2em auto;
+  column-gap: 30px;
+}
+.contact-details {
+  width: 50%;
+  height: 400px;
+  box-shadow: var(--bs);
+  padding-left: 3.5em;
+  padding-top: 1.5em;
+}
+
+.contact-details li {
+  list-style: none;
+  font-family: var(--ff-primary);
+}
+
+.contact-details h3 {
+  font-family: var(--ff-secondary);
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    flex-direction: column;
+  }
+  .contact-details {
+    width: 100%;
+  }
+}

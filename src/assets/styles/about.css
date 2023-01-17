@@ -1,0 +1,61 @@
+.about-me_img {
+  box-shadow: var(--bs);
+}
+
+.section_subtitle-about {
+  background: var(--clr-secondary);
+  font-size: var(--fs-h3);
+  font-family: var(--ff-secondary);
+  display: inline-block;
+  padding: 0.6em 1em;
+  margin-bottom: 1em;
+}
+.about__body {
+  text-align: justify;
+}
+
+.skills-title {
+  font-family: var(--ff-secondary);
+}
+
+@media (min-width: 768px) {
+  .about_hero {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .about_hero {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    grid-template-areas:
+      "title image"
+      "subtitle image"
+      "text image";
+    grid-column-gap: 2em;
+  }
+
+  .section_title-about {
+    grid-area: title;
+  }
+  .section_subtitle-about {
+    /* grid-area: subtitle; */
+    grid-column: 1/-1;
+    grid-row: 2;
+    position: relative;
+    left: -1em;
+    width: calc(100% + 2em);
+    padding-left: 1em;
+    padding-right: calc(200px + 3em);
+  }
+
+  .about__body {
+    grid-area: text;
+    text-align: justify;
+  }
+  .about-me_img {
+    position: relative;
+    z-index: 2;
+  }
+  .image {
+    grid-area: image;
+  }
+}
