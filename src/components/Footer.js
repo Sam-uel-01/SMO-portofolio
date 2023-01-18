@@ -15,29 +15,49 @@ function Footer() {
       <div className="footer-element">
         <ul className="footer-socials">
           <li>
-            <NavLink>
+            <a
+              href="https://www.linkedin.com/in/samuelortil/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <AiFillLinkedin className="social-icons" />
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink>
+            <a
+              href="https://twitter.com/Zeddic_SMO"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiFillTwitterSquare className="social-icons" />
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink>
+            <a
+              href="https://wa.me/+2348133478014"
+              target="_blank"
+              rel="noreferrer"
+            >
               <BsWhatsapp className="social-icons" />
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink>
+            <a
+              href="https://www.facebook.com/samuel93ortil"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiFillFacebook className="social-icons" />
-            </NavLink>
+            </a>
           </li>
           <li>
-            <NavLink>
+            <a
+              href="https://github.com/Sam-uel-01"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiFillGithub className="social-icons" />
-            </NavLink>
+            </a>
           </li>
         </ul>
       </div>

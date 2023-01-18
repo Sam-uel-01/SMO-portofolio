@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 .active {
-  color: red;
+  color: rgba(0, 206, 158, 1);
+  font-weight: var(--bold);
 }
 
 .container {

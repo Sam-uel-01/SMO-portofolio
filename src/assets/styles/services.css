@@ -10,7 +10,7 @@ p {
   font-size: var(--fs-body);
   padding: 0.5em 3em;
   border-radius: 8px;
-  background: var(--clr-secondary);
+  background: rgba(0, 206, 158, 1);
   font-family: var(--ff-secondary);
   box-sizing: var(--bs);
   text-transform: uppercase;

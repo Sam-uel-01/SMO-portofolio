@@ -52,7 +52,13 @@ function Contacts() {
               <p>
                 <ul>
                   <li>
-                    <a href="mailto">samuel93ortil@gmail.com</a>
+                    <a
+                      href="mailto:samuel93ortil@gmail.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      samuel93ortil@gmail.com
+                    </a>
                   </li>
                 </ul>
               </p>
@@ -62,7 +68,7 @@ function Contacts() {
               <p>
                 <ul>
                   <li>
-                    <a href="mailto">(+234) 8133 478 014</a>
+                    <a href="tel:+2348133478014">(+234) 8133 478 014</a>
                   </li>
                 </ul>
               </p>
@@ -129,7 +135,7 @@ const StyledContactForm = styled.div`
     input[type="submit"] {
       margin: 2rem 0;
       cursor: pointer;
-      background: rgb(249, 105, 14);
+      background: rgba(0, 206, 158, 1);
       color: white;
       border: none;
       font-size: 1.2em;

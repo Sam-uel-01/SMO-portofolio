@@ -24,3 +24,8 @@ footer {
   list-style: none;
   font-size: 30px;
 }
+.social-icons {
+  color: rgba(0, 206, 158, 1);
+  font-weight: bold;
+
+}

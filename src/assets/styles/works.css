@@ -1,0 +1,33 @@
+.portfolios {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.portfolio {
+  width: 450px;
+  text-align: center;
+  box-shadow: var(--bs);
+  padding: 1em;
+}
+
+.portfolio-image {
+  height: 250px;
+}
+.portfolio-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-btn {
+  padding: 1em 3em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-family: var(--ff-primary);
+  background: var(--clr-secondary);
+  font-weight: bold;
+  color: white;
+}
