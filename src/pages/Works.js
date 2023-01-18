@@ -9,7 +9,7 @@ function Works() {
     <>
       <Header />
       <section className="works_hero">
-        <h2 className="section_title"> My Portfolio</h2>
+        <h2 className="section_title"> My Works</h2>
 
         <div className="portfolio">
           <a href="www.google.com" className="portfolio_item">
