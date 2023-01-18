@@ -24,6 +24,7 @@
 
 @media (max-width: 768px) {
   .contact-form {
+    width: 100%;
     flex-direction: column;
     column-gap: 0px;
   }
