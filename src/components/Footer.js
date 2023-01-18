@@ -1,6 +1,5 @@
 import React from "react"
 import "../assets/styles/footer.css"
-import { NavLink } from "react-router-dom"
 import { BsWhatsapp } from "react-icons/bs"
 import {
   AiFillLinkedin,
